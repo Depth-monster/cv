@@ -127,6 +127,17 @@ text-align: center;
   margin: 0px auto 10% auto;
   font-family:'Monospace';
 }
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.site-window {
+  width: 300px;
+  height: 150px;
+  margin: 6%;
+}
 .btn:hover {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
